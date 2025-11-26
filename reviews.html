@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        <meta name="keywords" content="料理, レシピ, 食材, グルメ, 食事, ヘルシー, ダイエット, スイーツ, ベジタリアン, ヴィーガン, レストラン, クッキング, デザート, お菓子" />
+        <meta name="description" content="おいしいレシピや食の知識を提供する当サイトでは、季節の食材を使った料理、ヘルシーなメニュー、初心者向けのクッキングガイドを充実させています。プロのシェフによる料理のヒントや食文化に関する情報も満載。料理初心者からグルメ愛好家まで、どなたでも楽しめるコンテンツをお届けします。" />
+
+        <title>食でつながる、心を満たす</title>
+
+        <link rel="stylesheet" href="css/bootstrap.min.css" />
+        <link rel="stylesheet" href="css/styles.css" />
+        <link rel="stylesheet" href="css/font-awesome.min.css" />
+        <link rel='stylesheet' href='css/boxicons.min.css'>
+        <link rel="stylesheet" href="css/aos.css">
+        <link rel="stylesheet" href="css/bootstrap-icons.css">
+        <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+    </head>
+    <body>
+    
+    <!-- Header Block: Floating Glass Navigation with Split Layout -->
+<header class="header-quantum-nav htpvkk" id="header-nav-z9x" data-aos="fade-down">
+    <div class="header-container">
+    <!-- Brand Logo Left -->
+    <div class="brand-section">
+        <a href="index.html" class="brand-logo">
+        <svg class="brand-icon" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M25 5L45 15V35L25 45L5 35V15L25 5Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+            <circle cx="25" cy="25" r="8" fill="currentColor"/>
+            <path d="M25 17V33M17 25H33" stroke="white" stroke-width="2" stroke-linecap="round"/>
+        </svg>
+        <span class="brand-text">Tabehub</span>
+        </a>
+    </div>
+
+    <!-- Desktop Navigation Center/Right -->
+    <nav class="nav-main" role="navigation" aria-label="Main navigation">
+        <ul class="nav-list">
+        <li class="nav-item">
+            <a href="index.html" class="nav-link">
+            <span class="link-text">ホーム</span>
+            <span class="link-hover-line"></span>
+            </a>
+        </li>
+        <li class="nav-item has-dropdown">
+            <button class="nav-link dropdown-trigger" aria-haspopup="true" aria-expanded="false">
+            <span class="link-text">ブログ</span>
+            <svg class="dropdown-arrow" width="12" height="8" viewBox="0 0 12 8" fill="none">
+                <path d="M1 1.5L6 6.5L11 1.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            <span class="link-hover-line"></span>
+            </button>
+            <ul class="dropdown-menu-new" role="menu">
+            <li class="dropdown-item">
+                <a href="Tabehubhui-she-notamenojiu-ji-nogurumeti-yan.html" class="dropdown-link" role="menuitem">
+                <svg class="dropdown-icon" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                    <rect x="2" y="3" width="12" height="10" rx="1" stroke="currentColor" stroke-width="1.5"/>
+                    <path d="M5 6H11M5 9H9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                </svg>
+                Tabehub会社のための究極のグルメ体験
+                </a>
+            </li>
+            <li class="dropdown-item">
+                <a href="Tabehubshe-note-bie-dezatowogoshao-jie.html" class="dropdown-link" role="menuitem">
+                <svg class="dropdown-icon" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                    <rect x="2" y="3" width="12" height="10" rx="1" stroke="currentColor" stroke-width="1.5"/>
+                    <path d="M5 6H11M5 9H9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                </svg>
+                Tabehub社の特別デザートをご紹介
+                </a>
+            </li>
+            </ul>
+        </li>
+        <li class="nav-item">
+            <a href="contact.html" class="nav-link">
+            <span class="link-text">お問い合わせ</span>
+            <span class="link-hover-line"></span>
+            </a>
+        </li>
+        <li class="nav-item">
+            <a href="reviews.html" class="nav-link">
+            <span class="link-text">お客様の声</span>
+            <span class="link-hover-line"></span>
+            </a>
+        </li>
+        <li class="nav-item">
+            <a href="#about" class="nav-link nav-link-about">
+            <span class="link-text">私たちについて</span>
+            <span class="link-hover-line"></span>
+            </a>
+        </li>
+        </ul>
+    </nav>
+
+    <!-- Mobile Menu Toggle -->
+    <button class="mobile-menu-toggle" aria-label="Toggle mobile menu" aria-expanded="false">
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+    </button>
+
+    <!-- Mobile Menu Overlay -->
+    <div class="mobile-menu-overlay"></div>
+    
+    <!-- Mobile Navigation -->
+    <nav class="nav-mobile" role="navigation" aria-label="Mobile navigation">
+        <div class="mobile-menu-header">
+        <span class="mobile-brand-text">Tabehub</span>
+        <button class="mobile-menu-close" aria-label="Close mobile menu">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="18" y1="6" x2="6" y2="18"></line>
+            <line x1="6" y1="6" x2="18" y2="18"></line>
+            </svg>
+        </button>
+        </div>
+        <ul class="mobile-nav-list">
+        <li class="mobile-nav-item">
+            <a href="index.html" class="mobile-nav-link">ホーム</a>
+        </li>
+        <li class="mobile-nav-item has-dropdown-mobile">
+            <button class="mobile-nav-link mobile-dropdown-trigger">
+            ブログ
+            <svg class="mobile-dropdown-arrow" width="12" height="8" viewBox="0 0 12 8" fill="none">
+                <path d="M1 1.5L6 6.5L11 1.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            </button>
+            <ul class="mobile-dropdown-menu-new">
+            <li class="mobile-dropdown-item">
+                <a href="Tabehubhui-she-notamenojiu-ji-nogurumeti-yan.html" class="mobile-dropdown-link">Tabehub会社のための究極のグルメ体験</a>
+            </li>
+            <li class="mobile-dropdown-item">
+                <a href="Tabehubshe-note-bie-dezatowogoshao-jie.html" class="mobile-dropdown-link">Tabehub社の特別デザートをご紹介</a>
+            </li>
+            </ul>
+        </li>
+        <li class="mobile-nav-item">
+            <a href="contact.html" class="mobile-nav-link">お問い合わせ</a>
+        </li>
+        <li class="mobile-nav-item">
+            <a href="reviews.html" class="mobile-nav-link">お客様の声</a>
+        </li>
+        <li class="mobile-nav-item">
+            <a href="#about" class="mobile-nav-link">私たちについて</a>
+        </li>
+        </ul>
+    </nav>
+    </div>
+</header>
+
+<script>
+// Header Navigation JavaScript
+(function() {
+    const header = document.querySelector('.header-quantum-nav');
+    const mobileToggle = document.querySelector('.mobile-menu-toggle');
+    const mobileClose = document.querySelector('.mobile-menu-close');
+    const mobileMenu = document.querySelector('.nav-mobile');
+    const mobileOverlay = document.querySelector('.mobile-menu-overlay');
+    const body = document.body;
+
+    // Desktop Dropdown Toggle
+    const dropdownTrigger = document.querySelector('.dropdown-trigger');
+    const dropdownMenu = document.querySelector('.dropdown-menu-new');
+
+    if (dropdownTrigger && dropdownMenu) {
+    dropdownTrigger.addEventListener('click', function(e) {
+        e.preventDefault();
+        const isExpanded = this.getAttribute('aria-expanded') === 'true';
+        this.setAttribute('aria-expanded', !isExpanded);
+        this.parentElement.classList.toggle('dropdown-active');
+    });
+
+    // Close dropdown when clicking outside
+    document.addEventListener('click', function(e) {
+        if (!e.target.closest('.has-dropdown')) {
+        dropdownTrigger.setAttribute('aria-expanded', 'false');
+        dropdownTrigger.parentElement.classList.remove('dropdown-active');
+        }
+    });
+    }
+
+    // Mobile Menu Toggle
+    function openMobileMenu() {
+    mobileMenu.classList.add('mobile-menu-active');
+    mobileOverlay.classList.add('overlay-active');
+    mobileToggle.setAttribute('aria-expanded', 'true');
+    body.style.overflow = 'hidden';
+    }
+
+    function closeMobileMenu() {
+    mobileMenu.classList.remove('mobile-menu-active');
+    mobileOverlay.classList.remove('overlay-active');
+    mobileToggle.setAttribute('aria-expanded', 'false');
+    body.style.overflow = '';
+    }
+
+    if (mobileToggle) {
+    mobileToggle.addEventListener('click', openMobileMenu);
+    }
+
+    if (mobileClose) {
+    mobileClose.addEventListener('click', closeMobileMenu);
+    }
+
+    if (mobileOverlay) {
+    mobileOverlay.addEventListener('click', closeMobileMenu);
+    }
+
+    // Close mobile menu when clicking a link
+    const mobileLinks = document.querySelectorAll('.mobile-nav-link:not(.mobile-dropdown-trigger)');
+    mobileLinks.forEach(link => {
+    link.addEventListener('click', closeMobileMenu);
+    });
+
+    // Mobile Dropdown Toggle
+    const mobileDropdownTriggers = document.querySelectorAll('.mobile-dropdown-trigger');
+    mobileDropdownTriggers.forEach(trigger => {
+    trigger.addEventListener('click', function(e) {
+        e.preventDefault();
+        this.parentElement.classList.toggle('mobile-dropdown-active');
+    });
+    });
+
+    // Header scroll effect
+    let lastScroll = 0;
+    window.addEventListener('scroll', function() {
+    const currentScroll = window.pageYOffset;
+    
+    if (currentScroll > 100) {
+        header.classList.add('header-scrolled');
+    } else {
+        header.classList.remove('header-scrolled');
+    }
+
+    lastScroll = currentScroll;
+    });
+})();
+</script>
+
+<main>
+
+
+
+
+<!-- Testimonials Block: Carousel Showcase Design -->
+<section class="testimonials-carousel-block" id="testimonials-showcase-section" data-aos="fade-up">
+    <div class="container">
+    <div class="testimonials-header">
+        <h2 class="testimonials-title">お客様の声</h2>
+        <div class="testimonials-accent-line"></div>
+    </div>
+    
+    <div class="testimonials-carousel-wrapper">
+        <div class="testimonials-carousel" id="testimonialsCarousel">
+        <!-- Testimonial Card 1 -->
+        <div class="testimonial-card" >
+            <div class="testimonial-quote-icon">
+            <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M10 28C10 23.5817 13.5817 20 18 20V16C11.3726 16 6 21.3726 6 28V36C6 38.2091 7.79086 40 10 40H18C20.2091 40 22 38.2091 22 36V28C22 25.7909 20.2091 24 18 24H10V28Z" fill="currentColor"/>
+                <path d="M30 28C30 23.5817 33.5817 20 38 20V16C31.3726 16 26 21.3726 26 28V36C26 38.2091 27.7909 40 30 40H38C40.2091 40 42 38.2091 42 36V28C42 25.7909 40.2091 24 38 24H30V28Z" fill="currentColor"/>
+            </svg>
+            </div>
+            <div class="testimonial-content">
+            <p class="testimonial-text">このサービスを利用して本当によかったです。料理の質とプレゼンテーションが素晴らしく、家族全員が満足しました。また利用したいと思います。 - 山田太郎</p>
+            </div>
+            <div class="testimonial-author">
+            <div class="author-avatar">
+                <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="32" cy="32" r="32" fill="#e0f2fe"/>
+                <circle cx="32" cy="24" r="10" fill="#0284c7"/>
+                <path d="M32 36C23.163 36 16 40.477 16 46V52C16 54.209 17.791 56 20 56H44C46.209 56 48 54.209 48 52V46C48 40.477 40.837 36 32 36Z" fill="#0284c7"/>
+                </svg>
+            </div>
+            <div class="author-info">
+                <h4 class="author-name">あつし 中島</h4>
+            </div>
+            </div>
+        </div>
+
+        <!-- Testimonial Card 2 -->
+        <div class="testimonial-card" >
+            <div class="testimonial-quote-icon">
+            <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M10 28C10 23.5817 13.5817 20 18 20V16C11.3726 16 6 21.3726 6 28V36C6 38.2091 7.79086 40 10 40H18C20.2091 40 22 38.2091 22 36V28C22 25.7909 20.2091 24 18 24H10V28Z" fill="currentColor"/>
+                <path d="M30 28C30 23.5817 33.5817 20 38 20V16C31.3726 16 26 21.3726 26 28V36C26 38.2091 27.7909 40 30 40H38C40.2091 40 42 38.2091 42 36V28C42 25.7909 40.2091 24 38 24H30V28Z" fill="currentColor"/>
+            </svg>
+            </div>
+            <div class="testimonial-content">
+            <p class="testimonial-text">友人の紹介で初めて注文しましたが、とても感動しました。特に寿司の繊細さと味わいが格別でした。次回も楽しみにしています。 - 佐藤美咲</p>
+            </div>
+            <div class="testimonial-author">
+            <div class="author-avatar">
+                <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="32" cy="32" r="32" fill="#fce7f3"/>
+                <circle cx="32" cy="24" r="10" fill="#db2777"/>
+                <path d="M32 36C23.163 36 16 40.477 16 46V52C16 54.209 17.791 56 20 56H44C46.209 56 48 54.209 48 52V46C48 40.477 40.837 36 32 36Z" fill="#db2777"/>
+                </svg>
+            </div>
+            <div class="author-info">
+                <h4 class="author-name">りか 伊藤</h4>
+            </div>
+            </div>
+        </div>
+
+        <!-- Testimonial Card 3 -->
+        <div class="testimonial-card" >
+            <div class="testimonial-quote-icon">
+            <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M10 28C10 23.5817 13.5817 20 18 20V16C11.3726 16 6 21.3726 6 28V36C6 38.2091 7.79086 40 10 40H18C20.2091 40 22 38.2091 22 36V28C22 25.7909 20.2091 24 18 24H10V28Z" fill="currentColor"/>
+                <path d="M30 28C30 23.5817 33.5817 20 38 20V16C31.3726 16 26 21.3726 26 28V36C26 38.2091 27.7909 40 30 40H38C40.2091 40 42 38.2091 42 36V28C42 25.7909 40.2091 24 38 24H30V28Z" fill="currentColor"/>
+            </svg>
+            </div>
+            <div class="testimonial-content">
+            <p class="testimonial-text">食材の新鮮さとスタッフの親切さに驚きました。質の高いサービスをこの価格で提供してくれるのは素晴らしいです。ぜひ試してみてください。 - 鈴木一郎</p>
+            </div>
+            <div class="testimonial-author">
+            <div class="author-avatar">
+                <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="32" cy="32" r="32" fill="#dcfce7"/>
+                <circle cx="32" cy="24" r="10" fill="#16a34a"/>
+                <path d="M32 36C23.163 36 16 40.477 16 46V52C16 54.209 17.791 56 20 56H44C46.209 56 48 54.209 48 52V46C48 40.477 40.837 36 32 36Z" fill="#16a34a"/>
+                </svg>
+            </div>
+            <div class="author-info">
+                <h4 class="author-name">ひでき 渡辺</h4>
+            </div>
+            </div>
+        </div>
+        </div>
+
+        <!-- Carousel Navigation -->
+        <div class="carousel-navigation">
+        <button class="carousel-btn carousel-prev" id="carouselPrev" aria-label="Previous testimonial">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M15 18L9 12L15 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+        </button>
+        <div class="carousel-pagination" id="carouselPagination">
+            <span class="pagination-dot active" data-index="0"></span>
+            <span class="pagination-dot" data-index="1"></span>
+            <span class="pagination-dot" data-index="2"></span>
+        </div>
+        <button class="carousel-btn carousel-next" id="carouselNext" aria-label="Next testimonial">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M9 18L15 12L9 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+        </button>
+        </div>
+    </div>
+    </div>
+</section>
+
+<!-- Carousel JavaScript -->
+<script>
+(function() {
+    const carousel = document.getElementById('testimonialsCarousel');
+    const cards = carousel ? carousel.querySelectorAll('.testimonial-card') : [];
+    const prevBtn = document.getElementById('carouselPrev');
+    const nextBtn = document.getElementById('carouselNext');
+    const dots = document.querySelectorAll('.pagination-dot');
+    let currentIndex = 0;
+    let autoplayInterval;
+
+    if (!carousel || cards.length === 0) return;
+
+    function updateCarousel(index) {
+    currentIndex = index;
+    
+    // Update card positions
+    cards.forEach((card, i) => {
+        card.classList.remove('active', 'prev', 'next');
+        if (i === currentIndex) {
+        card.classList.add('active');
+        } else if (i === currentIndex - 1 || (currentIndex === 0 && i === cards.length - 1)) {
+        card.classList.add('prev');
+        } else if (i === currentIndex + 1 || (currentIndex === cards.length - 1 && i === 0)) {
+        card.classList.add('next');
+        }
+    });
+
+    // Update pagination dots
+    dots.forEach((dot, i) => {
+        dot.classList.toggle('active', i === currentIndex);
+    });
+
+    // Update button states
+    if (prevBtn) prevBtn.disabled = false;
+    if (nextBtn) nextBtn.disabled = false;
+    }
+
+    function nextSlide() {
+    const next = (currentIndex + 1) % cards.length;
+    updateCarousel(next);
+    }
+
+    function prevSlide() {
+    const prev = (currentIndex - 1 + cards.length) % cards.length;
+    updateCarousel(prev);
+    }
+
+    function startAutoplay() {
+    autoplayInterval = setInterval(nextSlide, 5000);
+    }
+
+    function stopAutoplay() {
+    clearInterval(autoplayInterval);
+    }
+
+    // Event listeners
+    if (nextBtn) {
+    nextBtn.addEventListener('click', () => {
+        nextSlide();
+        stopAutoplay();
+        startAutoplay();
+    });
+    }
+
+    if (prevBtn) {
+    prevBtn.addEventListener('click', () => {
+        prevSlide();
+        stopAutoplay();
+        startAutoplay();
+    });
+    }
+
+    dots.forEach((dot, index) => {
+    dot.addEventListener('click', () => {
+        updateCarousel(index);
+        stopAutoplay();
+        startAutoplay();
+    });
+    });
+
+    // Touch/swipe support
+    let touchStartX = 0;
+    let touchEndX = 0;
+
+    carousel.addEventListener('touchstart', (e) => {
+    touchStartX = e.changedTouches[0].screenX;
+    }, { passive: true });
+
+    carousel.addEventListener('touchend', (e) => {
+    touchEndX = e.changedTouches[0].screenX;
+    if (touchStartX - touchEndX > 50) {
+        nextSlide();
+        stopAutoplay();
+        startAutoplay();
+    } else if (touchEndX - touchStartX > 50) {
+        prevSlide();
+        stopAutoplay();
+        startAutoplay();
+    }
+    }, { passive: true });
+
+    // Pause on hover
+    carousel.addEventListener('mouseenter', stopAutoplay);
+    carousel.addEventListener('mouseleave', startAutoplay);
+
+    // Initialize
+    updateCarousel(0);
+    startAutoplay();
+
+    // Keyboard navigation
+    document.addEventListener('keydown', (e) => {
+    if (e.key === 'ArrowLeft') {
+        prevSlide();
+        stopAutoplay();
+        startAutoplay();
+    } else if (e.key === 'ArrowRight') {
+        nextSlide();
+        stopAutoplay();
+        startAutoplay();
+    }
+    });
+})();
+</script>
+
+
+
+
+
+</main>
+<footer class="footer-modern-gradient" id="footer-section-main">
+    <div class="footer-container">
+    <!-- Main Footer Content -->
+    <div class="footer-content-grid">
+        <!-- Company Info Column -->
+        <div class="footer-company-info" >
+        <div class="footer-brand-wrapper">
+            <div class="footer-brand-icon">
+            <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="24" cy="24" r="20" fill="url(#brandGradient)" opacity="0.2"/>
+                <path d="M24 8L32 16L24 24L16 16L24 8Z" fill="url(#brandGradient)"/>
+                <path d="M24 24L32 32L24 40L16 32L24 24Z" fill="url(#brandGradient)" opacity="0.7"/>
+                <defs>
+                <linearGradient id="brandGradient" x1="8" y1="8" x2="40" y2="40">
+                    <stop offset="0%" stop-color="#ff6b6b"/>
+                    <stop offset="100%" stop-color="#ffd93d"/>
+                </linearGradient>
+                </defs>
+            </svg>
+            </div>
+            <h3 class="footer-brand-name">Tabehub</h3>
+        </div>
+        <div class="footer-contact-details">
+            <div class="footer-contact-item">
+            <svg class="footer-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                <circle cx="12" cy="10" r="3"/>
+            </svg>
+            <span class="footer-contact-text">東京都, 東京, 八王子通り, 18</span>
+            </div>
+            <div class="footer-contact-item">
+            <svg class="footer-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+            </svg>
+            <a href="tel:81 036-653-2370" class="footer-contact-link">81 036-653-2370</a>
+            </div>
+        </div>
+        </div>
+
+        <!-- Quick Links Column -->
+        <div class="footer-links-column" >
+        <h4 class="footer-column-title">クイックリンク</h4>
+        <nav class="footer-nav-list">
+            <a href="Tabehubhui-she-notamenojiu-ji-nogurumeti-yan.html" class="footer-nav-link">
+            <span class="footer-link-dot"></span>
+            Tabehub会社のための究極のグルメ体験
+            </a>
+            <a href="Tabehubshe-note-bie-dezatowogoshao-jie.html" class="footer-nav-link">
+            <span class="footer-link-dot"></span>
+            Tabehub社の特別デザートをご紹介
+            </a>
+        </nav>
+        </div>
+
+        <!-- Legal Links Column -->
+        <div class="footer-links-column" >
+        <h4 class="footer-column-title">法的情報</h4>
+        <nav class="footer-nav-list">
+            <a href="policy.html" class="footer-nav-link">
+            <span class="footer-link-dot"></span>
+            プライバシーポリシー
+            </a>
+            <a href="terms.html" class="footer-nav-link">
+            <span class="footer-link-dot"></span>
+            利用規約
+            </a>
+        </nav>
+        </div>
+    </div>
+
+    <!-- Decorative Wave Divider -->
+    <div class="footer-wave-divider">
+        <svg viewBox="0 0 1200 40" preserveAspectRatio="none">
+        <path d="M0,20 Q300,0 600,20 T1200,20 L1200,40 L0,40 Z" fill="url(#waveGradient)" opacity="0.3"/>
+        <defs>
+            <linearGradient id="waveGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#ff6b6b"/>
+            <stop offset="50%" stop-color="#ff8c42"/>
+            <stop offset="100%" stop-color="#ffd93d"/>
+            </linearGradient>
+        </defs>
+        </svg>
+    </div>
+
+    <!-- Footer Bottom -->
+    <div class="footer-bottom" >
+        <p class="footer-copyright">© 2024 すべての権利を保有します</p>
+        <div class="footer-decorative-dots">
+        <span class="footer-dot"></span>
+        <span class="footer-dot"></span>
+        <span class="footer-dot"></span>
+        </div>
+    </div>
+    </div>
+
+    <!-- Background Decoration -->
+    <div class="footer-bg-decoration"></div>
+</footer>
+
+
+
+    <script type="text/javascript" src="js/popper.js"></script><script> window.start.init({Palette:"palette1",Mode:"banner bottom",Time:"0", Message: "当社は、サイトとそのユーザーエクスペリエンスを向上させるためにクッキーを使用しています。サイトの利用を継続することで、クッキーの使用に同意したものとみなされます。クッキーはブラウザの設定でいつでも無効にすることができます。", ButtonText: "受け入れる", LinkText: "さらに詳しく"})</script>
+        
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+
+    <script>AOS.init();</script>
+    </body>
+</html>
